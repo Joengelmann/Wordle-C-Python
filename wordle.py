@@ -1,6 +1,3 @@
-# wordle.py is a program for a simplified version of the word game wordle.
-# This is fully implemented in python, and you should use it as a reference
-
 import random
 
 # open word back file and pick and return a random word from it
@@ -46,7 +43,6 @@ num_guesses = 6
 # pick secret word
 secret = get_word()
 #secret = 'PLANE' # feel free to hardcode your own words when testing
-#print(secret) # you may also print out the word for testing
 print('The secret word has been selected. Start guessing!')
 
 # play game
